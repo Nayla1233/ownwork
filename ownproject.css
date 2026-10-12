@@ -1,0 +1,154 @@
+.body{
+  background-color: 
+  rgb(79, 54, 78);
+}
+.header{
+  
+  margin-top: 5px;
+  padding-bottom: 20px;
+  margin-right: 55px;
+  display: flex;
+}
+.account-button{
+  
+  color: white;
+  background-color: rgb(96, 54, 3);
+  border-radius: 15px;
+  border-style: none;
+  height: 30px;
+  width: 30px;
+  font-size: 16px;
+  margin-top: 13px;
+
+  transition: box-shadow 0.2s ease;
+
+  
+
+}
+.account-button:hover{
+  box-shadow: 0 0 0 4px rgba(101, 98, 98, 0.8);
+  
+}
+
+  
+
+.gmail-paragraph{
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+  transition: 0.15s;
+}
+.gmail-paragraph:hover{
+  opacity :1;
+  text-decoration: underline;
+}
+.img-paragraph{
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  opacity: 0.15s;
+ 
+
+}
+.img-paragraph:hover{
+  opacity:1;
+  text-decoration: underline;
+  position: relative;
+}
+.dots-icon{
+  color: rgb(110, 43, 43);
+  display: flex;
+  
+
+}
+
+.dots-picture{
+  display: flex;
+  color: rgb(101, 2, 18);
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding-top: 11px;
+ 
+  height:30px;
+  position: relative;
+  
+}
+.right-section{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 25px;
+}
+.Google{
+  margin-bottom: -120px;
+ 
+  
+  
+
+}
+.paragraph{
+  color:rgba(246, 176, 234, 1.00);
+
+  font-size: 100px;
+  margin-top: 100px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif, Arial ;
+  font-weight: 50px;
+}
+
+
+.search-space{
+ 
+  margin-top: 50px;
+  height: 50px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  border-style: none;
+  margin-left: 300px;
+}
+.search-bar{
+   
+ display: flex;
+align-items: center;
+}
+.search-space::placeholder{
+  font-size: 16px;
+  padding-left: 15px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: rgb(146, 134, 134);
+}
+.icons-part{
+     display: flex;
+     margin-top: 100px;
+     margin-left: 100px ;
+     
+
+}
+.youtube-icon , .chatgpt-icon , .apps-icon , .zoom-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 260px;
+  background-color: rgb(79, 54, 78); 
+   border-radius: 8px;
+  transition: background-color 0.2s;
+  
+  
+}
+
+.youtube-icon:hover, .chatgpt-icon:hover , .apps-icon:hover , .zoom-icon:hover {
+   background-color: rgba(255, 255, 255, 0.08);
+}
+
+
+
+
+
+
